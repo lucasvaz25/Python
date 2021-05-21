@@ -1,0 +1,7 @@
+not1 = input('Informe a 1ª nota:')
+not2 = input('Informe a 2ª nota:')
+not3 = input('Informe a 3ª nota:')
+not4 = input('Informe a 4ª nota:')
+print('-------------------------------')
+med = ((float(not1)+float(not2)+float(not3)+float(not4))/4)
+print('a média das notas é: ', med)

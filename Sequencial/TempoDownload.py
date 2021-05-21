@@ -1,0 +1,6 @@
+tam = int(input('informe o tamanho do arquivo em megabytes: '))
+vel = int (input('informe a velocidade de download em megabits: '))
+print('---------------------------------------------------')
+tempoSeg = (tam/(vel/8))
+tempoMin = float(tempoSeg/60)
+print('o download do arquivo leva',tempoMin,'minutos')
